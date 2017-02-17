@@ -26,7 +26,9 @@ print(data)
 print(data['two'])
 print(data[['three', 'one']])
 
-print(data[:2])
+print(data[:2])  # interval, select by index location,
+# print(data[2])  # Error, not interval
+print(data[2:3])
 print(data.ix['Colorado', ['two', 'three']])
 print(data.ix[['Colorado', 'Utah'], [3, 0, 1]])
 print(data.ix[2])
