@@ -15,6 +15,7 @@ with open('stormofswords.csv', 'r') as f:
 
 g = IGraph.TupleList(edges, directed=True, vertex_name_attr='name',
                      edge_attrs=None, weights=True)
+# print(g)
 
 print("# Graph g is weighted?")
 print(g.is_weighted())
